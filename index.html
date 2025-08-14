@@ -73,10 +73,10 @@
         >
           <!-- left: doctor image -->
           <div class="hero-left col-lg-5">
-            <div style="max-width: 360px; width: 100%">
+            <div>
               <!-- replace src with your image path -->
               <img
-                src="ssprofile1.jpg"
+                src="image.png"
                 alt="Dr Sudhendu Shekhar"
                 class="doctor-img"
               />
@@ -110,8 +110,9 @@
           <div class="hero-right col-lg-7">
             <span class="intro-tag">💚 HI I AM</span>
             <h1 class="">
-              Dr. Sudhendu Shekhar — Senior Cancer Specialist (Surgical
-              Oncology)
+              Dr. Sudhendu Shekhar —
+              <span class="text-danger"> Senior Cancer Specialist</span>
+              (Surgical Oncology)
             </h1>
             <p class="lead">
               Expert in cancer surgery and multidisciplinary oncology care. Dr.
@@ -204,24 +205,25 @@
               <li>State-of-the-art surgical techniques</li>
               <li>Personalized and empathetic consultations</li>
             </ul>
+            <div
+              class="p-3"
+              style="
+                background: linear-gradient(180deg, #f8fcff, #ffffff);
+                border-radius: 10px;
+              "
+            >
+              <strong>Clinic Highlights</strong>
+              <ul class="mt-2 muted">
+                <li>Advanced OT & postoperative care</li>
+                <li>Multidisciplinary tumor board</li>
+                <li>Comprehensive follow-up & support</li>
+              </ul>
+            </div>
           </div>
 
           <div class="col-lg-6 reveal">
-            <div class="card map-card p-3">
-              <div
-                class="p-3"
-                style="
-                  background: linear-gradient(180deg, #f8fcff, #ffffff);
-                  border-radius: 10px;
-                "
-              >
-                <strong>Clinic Highlights</strong>
-                <ul class="mt-2 muted">
-                  <li>Advanced OT & postoperative care</li>
-                  <li>Multidisciplinary tumor board</li>
-                  <li>Comprehensive follow-up & support</li>
-                </ul>
-              </div>
+            <div class="card map-card">
+              <img src="ssprofile1.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -230,7 +232,7 @@
 
     <!-- SERVICES -->
 
-    <section class="py-5 service">
+    <section id="services" class="py-5 service">
       <div class="container">
         <div class="section-header reveal">
           <span>💙Specialized Cancer Care Services</span>
@@ -240,7 +242,7 @@
           </h2>
         </div>
         <div class="row g-4">
-          <div class="col-lg-3 col-md-6 animationL">
+          <div class="col-lg-3 col-md-6">
             <div class="service-card">
               <div class="service-icon">
                 <svg class="svgi" viewBox="0 0 64 64">
@@ -322,7 +324,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 animationR">
+          <div class="col-lg-3 col-md-6">
             <div class="service-card">
               <div class="service-icon">
                 <!-- Animated SVG: ribbon icon -->
@@ -366,46 +368,50 @@
         <!-- Four Cards -->
         <!-- Four Cards -->
         <div class="row g-4 mb-5">
-          <div class="col-md-6 col-lg-6 animationL">
+          <div class="col-md-6 col-lg-6 reveal">
             <div class="qualification-card text-start">
               <div class="qualification-title">
                 Bachelor of Medicine & Bachelor of Surgery (MBBS)
               </div>
-              <div class="qualification-sub">Oxford University</div>
+              <div class="qualification-sub">Madurai Medical College</div>
               <div class="qualification-sub">Jan 2014 - Dec 2018</div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-6 animationR">
+          <div class="col-md-6 col-lg-6 reveal">
             <div class="qualification-card text-start">
-              <div class="qualification-title">
-                Master of Public Health (MPH)
+              <div class="qualification-title">Master of Surgery (MS)</div>
+              <div class="qualification-sub">
+                Maharani Lakshmi Bai Medical College
               </div>
-              <div class="qualification-sub">Harvard University</div>
               <div class="qualification-sub">Jan 2019 - Dec 2022</div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-6 animationL">
+          <div class="col-md-6 col-lg-6 reveal">
             <div class="qualification-card text-start">
               <div class="qualification-title">
-                Doctor of Philosophy in Medical Research
+                Fellowship in Hepatobilliary and Pancreatic Surgery
               </div>
-              <div class="qualification-sub">Stanford University</div>
+              <div class="qualification-sub">
+                Sir Ganga Ram Hospital New Delhi
+              </div>
               <div class="qualification-sub">Jan 2023 - Present</div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-6 animationR">
+          <div class="col-md-6 col-lg-6 reveal">
             <div class="qualification-card text-start">
               <div class="qualification-title">
-                Global Health Leadership Certification
+                Fellowship and Certified training in Surgical Oncology
               </div>
-              <div class="qualification-sub">World Health Organization</div>
+              <div class="qualification-sub">
+                Tata Memorial Hospital, Parel, Mumbai
+              </div>
               <div class="qualification-sub">2024</div>
             </div>
           </div>
         </div>
 
         <!-- Award Icons -->
-        <div
+        <!-- <div
           class="d-flex flex-wrap justify-content-center align-items-center gap-3 award-icons mb-4"
         >
           <img
@@ -426,11 +432,76 @@
           />
         </div>
 
+        <a href="#" class="btn btn-primary view-all-btn">View All Awards</a> -->
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="qualification-section">
+      <div class="container qualification-content text-center">
+        <span class="section-badge reveal">💙 Experience</span>
+        <h2 class="section-title mb-5 reveal">Experience</h2>
+
+        <!-- Four Cards -->
+        <!-- Four Cards -->
+        <div class="row g-4 mb-5">
+          <div class="col-md-6 col-lg-6 reveal">
+            <div class="qualification-card text-start">
+              <div class="qualification-title">
+                Ex Asst. Professor Surgical Oncology
+              </div>
+
+              <div class="qualification-sub">2 Years</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 reveal">
+            <div class="qualification-card text-start">
+              <div class="qualification-title">
+                MPMMCC AND HBCH TMC, Varanasi
+              </div>
+
+              <div class="qualification-sub">2 Years</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 reveal">
+            <div class="qualification-card text-start">
+              <div class="qualification-title">
+                Ex. Asst. Professor Surgical Oncology BBCI ASSAM.
+              </div>
+
+              <div class="qualification-sub">3 Years</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 reveal">
+            <div class="qualification-card text-start">
+              <div class="qualification-title">
+                Ex. Senior Consultant Indian Railways Cancer Research Institute
+              </div>
+
+              <div class="qualification-sub">4 Years</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Award Icons -->
+        <div
+          class="d-flex flex-wrap justify-content-center align-items-center gap-3 award-icons mb-4"
+        >
+          <img src="logo2.jpg" alt="Award 2" />
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/190/190411.png"
+            alt="Award 3"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/854/854878.png"
+            alt="Award 4"
+          />
+        </div>
+
         <!-- Button -->
         <a href="#" class="btn btn-primary view-all-btn">View All Awards</a>
       </div>
     </section>
-
     <!-- Doctor Blogs -->
     <section class="py-5">
       <div class="container">
@@ -446,7 +517,7 @@
 
         <div class="row g-4">
           <!-- Card 1 -->
-          <div class="col-lg-4 col-md-6 animationL">
+          <div class="col-lg-4 col-md-6">
             <div class="glass-card">
               <div class="card-img">
                 <img src="image1.jpg" alt="" />
@@ -496,7 +567,7 @@
           </div>
 
           <!-- Card 3 -->
-          <div class="col-lg-4 col-md-6 animationR">
+          <div class="col-lg-4 col-md-6">
             <div class="glass-card">
               <div class="card-img">
                 <img src="image3.jpg" alt="" />
@@ -600,7 +671,7 @@
       <div class="container">
         <div class="row g-4 align-items-stretch">
           <!-- Form Card -->
-          <div class="col-lg-7 animationL">
+          <div class="col-lg-7 reveal">
             <div
               class="card shadow-lg border-0 h-100"
               style="border-radius: 16px"
@@ -679,7 +750,7 @@
           </div>
 
           <!-- Schedule Card -->
-          <div class="col-lg-5 animationR">
+          <div class="col-lg-5 reveal">
             <div
               class="card shadow-lg border-0 h-100"
               style="border-radius: 16px; background: #ffffff"
