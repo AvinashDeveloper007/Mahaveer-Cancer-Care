@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../static/style.css" />
   </head>
   <body>
     <!-- rotating gradient behind -->
@@ -76,7 +76,7 @@
             <div>
               <!-- replace src with your image path -->
               <img
-                src="image.png"
+                src="../static/image/image.png"
                 alt="Dr Sudhendu Shekhar"
                 class="doctor-img"
               />
@@ -127,39 +127,6 @@
               <a href="#schedule" class="btn btn-outline custom"
                 >View Schedule</a
               >
-            </div>
-
-            <!-- heartbeat card -->
-            <div
-              class="card-soft mt-4 d-flex align-items-center gap-3 reveal"
-              style="max-width: 520px"
-            >
-              <svg class="svgi" viewBox="0 0 120 60" aria-hidden="true">
-                <polyline
-                  points="0,30 20,30 28,30 34,18 40,40 46,30 60,30 70,30 76,15 84,45 92,30 120,30"
-                  fill="none"
-                  stroke="#0d6efd"
-                  stroke-width="3"
-                >
-                  <animate
-                    attributeName="points"
-                    dur="2.2s"
-                    repeatCount="indefinite"
-                    values="0,30 20,30 28,30 34,18 40,40 46,30 60,30 70,30 76,15 84,45 92,30 120,30;
-                          0,30 20,30 28,30 34,40 40,18 46,30 60,30 70,30 76,45 84,15 92,30 120,30;
-                          0,30 20,30 28,30 34,18 40,40 46,30 60,30 70,30 76,15 84,45 92,30 120,30"
-                  />
-                </polyline>
-              </svg>
-              <div>
-                <div style="font-weight: 800; color: var(--blue-900)">
-                  Why choose Dr. Sudhendu?
-                </div>
-                <div class="muted" style="font-size: 0.95rem">
-                  Compassionate surgical oncology care with modern diagnostics &
-                  personalized treatment.
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -222,8 +189,8 @@
           </div>
 
           <div class="col-lg-6 reveal">
-            <div class="card map-card">
-              <img src="ssprofile1.jpg" alt="" />
+            <div class="card map-card p-3">
+              <img src="../static/image/ssprofile1.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -374,7 +341,7 @@
                 Bachelor of Medicine & Bachelor of Surgery (MBBS)
               </div>
               <div class="qualification-sub">Madurai Medical College</div>
-              <div class="qualification-sub">Jan 2014 - Dec 2018</div>
+              <!-- <div class="qualification-sub">Jan 2014 - Dec 2018</div> -->
             </div>
           </div>
           <div class="col-md-6 col-lg-6 reveal">
@@ -383,7 +350,7 @@
               <div class="qualification-sub">
                 Maharani Lakshmi Bai Medical College
               </div>
-              <div class="qualification-sub">Jan 2019 - Dec 2022</div>
+              <!-- <div class="qualification-sub">Jan 2019 - Dec 2022</div> -->
             </div>
           </div>
           <div class="col-md-6 col-lg-6 reveal">
@@ -394,7 +361,7 @@
               <div class="qualification-sub">
                 Sir Ganga Ram Hospital New Delhi
               </div>
-              <div class="qualification-sub">Jan 2023 - Present</div>
+              <!-- <div class="qualification-sub">Jan 2023 - Present</div> -->
             </div>
           </div>
           <div class="col-md-6 col-lg-6 reveal">
@@ -405,7 +372,7 @@
               <div class="qualification-sub">
                 Tata Memorial Hospital, Parel, Mumbai
               </div>
-              <div class="qualification-sub">2024</div>
+              <!-- <div class="qualification-sub">2024</div> -->
             </div>
           </div>
         </div>
@@ -451,34 +418,26 @@
                 Ex Asst. Professor Surgical Oncology
               </div>
 
-              <div class="qualification-sub">2 Years</div>
+              <div class="qualification-sub">MPMMCC AND HBCH TMC, Varanasi</div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 reveal">
+            <div class="qualification-card text-start">
+              <div class="qualification-title">
+                Ex. Asst. Professor Surgical Oncology
+              </div>
+
+              <div class="qualification-sub">BBCI ASSAM</div>
             </div>
           </div>
           <div class="col-md-6 col-lg-6 reveal">
             <div class="qualification-card text-start">
-              <div class="qualification-title">
-                MPMMCC AND HBCH TMC, Varanasi
-              </div>
+              <div class="qualification-title">Ex. Senior Consultant</div>
 
-              <div class="qualification-sub">2 Years</div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 reveal">
-            <div class="qualification-card text-start">
-              <div class="qualification-title">
-                Ex. Asst. Professor Surgical Oncology BBCI ASSAM.
+              <div class="qualification-sub">
+                Indian Railways Cancer Research Institute
               </div>
-
-              <div class="qualification-sub">3 Years</div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 reveal">
-            <div class="qualification-card text-start">
-              <div class="qualification-title">
-                Ex. Senior Consultant Indian Railways Cancer Research Institute
-              </div>
-
-              <div class="qualification-sub">4 Years</div>
             </div>
           </div>
         </div>
@@ -487,15 +446,15 @@
         <div
           class="d-flex flex-wrap justify-content-center align-items-center gap-3 award-icons mb-4"
         >
-          <img src="logo2.jpg" alt="Award 2" />
-          <img
+          <img src="../static/image/logo2.jpg" alt="Award 2" />
+          <!-- <img
             src="https://cdn-icons-png.flaticon.com/512/190/190411.png"
             alt="Award 3"
           />
           <img
             src="https://cdn-icons-png.flaticon.com/512/854/854878.png"
             alt="Award 4"
-          />
+          /> -->
         </div>
 
         <!-- Button -->
@@ -517,10 +476,10 @@
 
         <div class="row g-4">
           <!-- Card 1 -->
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 reveal">
             <div class="glass-card">
               <div class="card-img">
-                <img src="image1.jpg" alt="" />
+                <img src="../static/image/image1.jpg" alt="" />
               </div>
               <div class="card-body-content">
                 <h5>The Medical Minute: Quick Tips</h5>
@@ -545,7 +504,7 @@
           <div class="col-lg-4 col-md-6 reveal">
             <div class="glass-card">
               <div class="card-img">
-                <img src="image2.jpg" alt="" />
+                <img src="../static/image/image2.jpg" alt="" />
               </div>
               <div class="card-body-content">
                 <h5>Healthy Habits for Busy Professionals</h5>
@@ -567,10 +526,10 @@
           </div>
 
           <!-- Card 3 -->
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 reveal">
             <div class="glass-card">
               <div class="card-img">
-                <img src="image3.jpg" alt="" />
+                <img src="../static/image/image3.jpg" alt="" />
               </div>
               <div class="card-body-content">
                 <h5>Ask the Doctor: Real Answers</h5>
@@ -750,7 +709,7 @@
           </div>
 
           <!-- Schedule Card -->
-          <div class="col-lg-5 reveal">
+          <div class="col-lg-5 reveal" id="schedule">
             <div
               class="card shadow-lg border-0 h-100"
               style="border-radius: 16px; background: #ffffff"
@@ -846,6 +805,6 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script src="../static/script.js"></script>
   </body>
 </html>
